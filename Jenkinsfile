@@ -1,2 +1,2 @@
 #!/usr/bin/env groovy
-buildPlugin(platforms: ['linux', 'windows'], jdkVersions: [7, 8])
+buildPlugin(platforms: ['linux'], jdkVersions: [8])
