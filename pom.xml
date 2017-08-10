@@ -24,7 +24,7 @@
     <artifactId>aws-codebuild</artifactId>
     <version>0.14-SNAPSHOT</version>
     <packaging>hpi</packaging>
-    <name>AWS CodeBuild Plugin for Jenkins</name>
+    <name>AWS CodeBuild Plugin</name>
     <description>Adds a build step to integrate Jenkins with AWS CodeBuild.</description>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/AWS+CodeBuild+Plugin</url>
 
