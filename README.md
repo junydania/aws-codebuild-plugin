@@ -2,6 +2,8 @@
 The AWS CodeBuild plugin for Jenkins provides a build step for your Jenkins project.
 
 [![license](http://img.shields.io/badge/license-Apache2.0-brightgreen.svg?style=flat)](https://github.com/jenkinsci/aws-codebuild-plugin/blob/master/LICENSE)
+
+[![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSEI1aXdhaHJ6QlRmMlR0UFZNUFM5NzUrckVBWUgyRlVvanN1Sm9LMXhNZWhWOC9MTHlJYlJmSkY2SVkrTlJiVWxVTGFPTlVIVC9hbnQzUG4xUDA4UlFNPSIsIml2UGFyYW1ldGVyU3BlYyI6IktibWhwaXRicjJEQnV3UlkiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 [![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins/aws-codebuild-plugin/master)](https://ci.jenkins.io/job/Plugins/job/aws-codebuild-plugin/job/master/)
 
 ## Setup Jenkins
