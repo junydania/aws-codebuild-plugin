@@ -22,7 +22,7 @@
 
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-codebuild</artifactId>
-    <version>0.53-SNAPSHOT</version>
+    <version>0.54-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <name>AWS CodeBuild Plugin</name>
     <description>Adds a build step to integrate Jenkins with AWS CodeBuild.</description>
