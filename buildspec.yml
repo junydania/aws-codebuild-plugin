@@ -8,3 +8,7 @@ phases:
 artifacts:
   files:
     - 'target/aws-codebuild.hpi'
+
+cache:
+  paths:
+    - '/root/.m2/**/*'
