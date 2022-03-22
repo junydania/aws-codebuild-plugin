@@ -54,22 +54,21 @@
         </license>
     </licenses>
 
-    <scm>
-        <url>https://github.com/jenkinsci/aws-codebuild-plugin</url>
-        <connection>scm:git:ssh://github.com/jenkinsci/aws-codebuild-plugin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/aws-codebuild-plugin.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
     <!-- get every artifact through repo.jenkins-ci.org, which proxies all the
         artifacts that we need -->
     <repositories>
+        <repository>
+            <id>codeartifact</id>
+            <name>codeartifact</name>
+            <url>https://codainfra-staging-461837736704.d.codeartifact.eu-central-1.amazonaws.com/maven/maven-repos/</url>
+        </repository>
+
         <repository>
             <id>repo.jenkins-ci.org</id>
             <url>https://repo.jenkins-ci.org/public/</url>
         </repository>
     </repositories>
-
+    
     <pluginRepositories>
         <pluginRepository>
             <id>repo.jenkins-ci.org</id>
@@ -139,6 +138,7 @@
             <id>repo.jenkins-ci.org</id>
             <url>https://repo.jenkins-ci.org/releases</url>
         </repository>
+
     </distributionManagement>
 
     <dependencies>
